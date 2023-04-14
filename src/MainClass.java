@@ -50,11 +50,11 @@ public class MainClass
 		{
 			if(a{i} == a{i + 1}) 
 		}
-				System.out.print(a{i+1});
+			System.out.print(a{i+1});
 			System.out.print(a{i});
 		
 
-	}
+	}*//Colucci: l'algoritmo è corretto ma errore grave perchè l'indice all'interno dell'array non è tra parentesi graffa ma quadra!
 
 	static void MinimodiArray()
 	{
@@ -73,19 +73,13 @@ public class MainClass
 		int temp = v[a];
 		v [a] = v [b];
 		v [b] = temp;
-	}
+	}//Colucci: l'esercizio chiedeva di individuare il minimo e la sua posizione, inoltre il codice non stampa risultati a video e l'algoritmo è sbagliato!
 	static void StampaPari()
-
-
-
-
-
-
 	{
 		int[] array1 = new int [20];
 		int j = 0;
 		int n = 0;
-		int numeroPari = j+=2;
+		int numeroPari = j+=2;// Colucci: quali erano le intenzioni qui? a cosa serviva?
 		for (int i = 0 ; i < array1.length ; i++)
 		{
 			array1[i] = (int)(Math.random()*100);
@@ -100,7 +94,7 @@ public class MainClass
 
 		}
 
-	}
+	}//Colucci: anche qui algoritmo sbagliato!
 }
 
 
